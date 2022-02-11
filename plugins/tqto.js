@@ -6,8 +6,9 @@ BIG THANKS TO
 • My ortu
 • Nurutomo
 • Xteam
-• AlyaaXzy 
-• BOTCAHX
+• Lan Official
+• LynXzy
+• Exc(org gg nich)
 • Zeks
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
