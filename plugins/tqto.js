@@ -6,8 +6,8 @@ BIG THANKS TO
 • My ortu
 • Nurutomo
 • Xteam
-• Lan Official
-• LynXzy
+• Lan Official(Owner)
+• LynXzy(Bot)
 • Exc(org gg nich)
 • Zeks
 • Penyedia Layanan API
