@@ -8,7 +8,7 @@ BIG THANKS TO
 • Xteam
 • Lan Official(Owner)
 • LynXzy(Bot)
-• Exc(org gg nich)
+• Exc
 • Zeks
 • Penyedia Layanan API
 • Orang-orang yang Berdonasi
