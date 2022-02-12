@@ -18,7 +18,7 @@ Digi: 60149431385
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '2 Bulan', description: "Rm30.00\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
+        {title: '2 Bulan', description: "Rm35.00\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
         {title: '1 Bulan', description: "Rm25.00\nSewa bot selama 1 bulan.", rowId:".masuk"},
         {title: '1 Minggu', description: "Rm5.00\nSewa bot selama 1 minggu.", rowId:".masuk"},
         {title: 'Trial', description: "GRATIS\nBot gratis 1 Hari.", rowId:".join"},
