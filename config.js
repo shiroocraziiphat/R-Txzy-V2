@@ -47,7 +47,7 @@ global.author = 'Xzy🥀'
 global.wait = '「 ⏱️ 」Harap tunggu...'
 global.eror = '「❗」Server ERROR!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© LynXzy' //change the watermark 
+global.watermark = '© LynXzy🥀' //change the watermark 
 global.image = 'https://telegra.ph/file/5fa8a551000fd4461acb7.jpg' //change the image
 global.thumbfoto = 'https://telegra.ph/file/8cc8af4778d64f3c5360c.jpg'
 
