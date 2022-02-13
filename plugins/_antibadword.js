@@ -1,7 +1,7 @@
 let { GroupSettingChange } = require('@adiwajshing/baileys')
 let handler = m => m
 
-let badwordRegex = /nxoslei@_((®$™π` // tambahin sendiri
+let badwordRegex = /nxoslei@_((®$™π/i` // tambahin sendiri
 
 handler.before = function (m, { isOwner, isBotAdmin }) {
     if (m.isBaileys && m.fromMe) return !0
