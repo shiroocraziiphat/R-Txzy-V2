@@ -9,7 +9,7 @@ let handler = async (m, { conn, args, isAdmin }) => {
   if (!me) throw 'Aku tidak ada di grup itu :/'
   if (me.isAdmin !== true) throw 'Aku bukan admin T_T'
   if (db.data.chats[group].privatelink) {
-      if (!isAdmin) await m.reply('Perintah ini hanya untuk *Admin* grup')
+      if (!isAdmin) await m.reply('Untuk *Admin* Group Kontol')
       if (isAdmin) await m.reply ('https://chat.whatsapp.com/' + await conn.groupInviteCode(group))
   } else if (!db.data.chats[group].privatelink) await m.reply ('https://chat.whatsapp.com/' + await conn.groupInviteCode(group))
 }
