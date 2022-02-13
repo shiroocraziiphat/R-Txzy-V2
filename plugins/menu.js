@@ -210,24 +210,24 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                         "sections": [
                             {
                                 "rows": [{
-                                    "title": "Status Bot",
+                                    "title": "|🛠️| Status Bot",
                                     "description": "Status dan informasi Bot.",
                                     "rowId": ".botstatus"
                                 }, {
-                                    "title": "Rules",
+                                    "title": "|❗| Rules",
                                     "description": "User yang bijak selalu mematuhi Rules.",
                                     "rowId": ".rules"
                                 }, {
-                                    "title": "Sewa bot - Premium",
+                                    "title": "|👑| Sewa bot - Premium",
                                     "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium.",
                                     "rowId": ".sewa"
                                 }],
                                 "title": "⟣─────────❲ Tentang Bot dan lainnya ❳──────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": `[🧾| Semua Perintah`,
+                                    "title": `|🧾| Semua Perintah`,
                                     "description": "Memberikan Semua Fitur Bot",
-                                    "rowId": ".? all"
+                                    "rowId": ".? all",
                                 }, { 
                                     "title": "|🕋| Islam",
                                     "description": "Menu Tentang Islam",
@@ -258,7 +258,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? xp"
                                 }, { 
                                     "title": "|🔞| NSFW",
-                                    "description": "Menu Bokep",
+                                    "description": "Astarfirullah,Tobat Banh",
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "|🖼️| Random Image",
@@ -341,26 +341,26 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
-                                    "title": "|🧑‍💻| Owner",
+                                    "title": "|👩‍⚖️| Owner",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
                                 "title": "⟣──────────────❲  All-Menu  ❳──────────────⟢"
                             }, {
                                 "rows": [{
-                                    "title": "Owner bot",
+                                    "title": "|👩‍💻| Owner bot",
                                     "description": "pemilik LynXzy",
                                     "rowId": ".owner"
                                 }, {
-                                    "title": "Donasi",
+                                    "title": "|💳| Donasi",
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title": "Kata penutup",
+                                    "title": "|🥀| Kata penutup",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
-                                    "title": "Thanks To |🎖️|",
+                                    "title": "|❤️| Thanks To",
                                     "description": "Terima kasih banyak untuk user yang telah berpartisipasi dalam bot",
                                     "rowId": ".tqto"
                                 }],
