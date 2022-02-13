@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async(m, { conn }) => {
     let teks = `
-Kebijakan Privasi, Syarat Ketentuan dan Peraturan R-Txzy Bot
+Kebijakan Privasi, Syarat Ketentuan dan Peraturan LynXzy Bot
 
 Kebijakan Privasi
 1. LynXzy tidak akan merekam data riwayat chat user.
