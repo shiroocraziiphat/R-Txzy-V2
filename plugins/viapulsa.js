@@ -26,7 +26,7 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
 }
-handler.help = ['viapulsa']
+handler.help = ['viadigi']
 handler.tags = ['info']
 handler.command = /^viapulsa$/i
 
