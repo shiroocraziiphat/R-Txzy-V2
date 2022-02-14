@@ -20,8 +20,8 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ║   *FITUR LAINNYA*
 ║ 
 ╠═ ©2021 Rpg wabot-aq
-╠═ Scrip original by Nurutomo
-╠═〘 R-Txzy 〙 ═
+╠═ Scrip original by Lan Official
+╠═〘 LynXzy 〙 ═
 `.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast') 
