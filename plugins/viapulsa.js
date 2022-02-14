@@ -28,6 +28,6 @@ conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*Sewa Bot*', 'status@broadcast
 }
 handler.help = ['viadigi']
 handler.tags = ['info']
-handler.command = /^viapulsa$/i
+handler.command = /^viadigi$/i
 
 module.exports = handler
