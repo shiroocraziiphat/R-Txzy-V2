@@ -31,7 +31,7 @@ global.APIKeys = { // APIKey nya disini
   'https://pencarikode.xyz': 'APIKEY',
   'https://api.xteam.xyz': 'f6898e891be84fcd',
   'https://zahirr-web.herokuapp.com': 'zahirgans',
-  'https://api.zeks.xyz': 'MBsdKbueQ8zXEuN3f02xVEZCT2M',
+  'https://api.zeks.xyz': 'nyyxz-bot',
   'https://api.lolhuman.xyz': '886e0ade87d2da2cab7f1906',
   'https://api.vhtear.com': 'sayahafiz',
   'https://fxc7-api.herokuapp.com': 'uN8rsK4g',
