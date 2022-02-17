@@ -204,7 +204,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *LynXzy*🌕`.trim(),
-                        "footerText": "𝐉𝐈𝐊𝐀 𝐌𝐄𝐍𝐄𝐌𝐔𝐊𝐀𝐍 𝐁𝐔𝐆, 𝐄𝐑𝐎𝐑 𝐀𝐓𝐀𝐔 𝐊𝐄𝐒𝐔𝐋𝐈𝐓𝐀𝐍 𝐃𝐀𝐋𝐀𝐌 𝐏𝐄𝐍𝐆𝐆𝐔𝐍𝐀𝐀𝐍 𝐒𝐈𝐋𝐀𝐊𝐀𝐍 𝐋𝐀𝐏𝐎𝐑𝐊𝐀𝐍/𝐓𝐀𝐍𝐘𝐀𝐊𝐀𝐍 𝐊𝐄𝐏𝐀𝐃𝐀 𝐎𝐖𝐍𝐄𝐑👤✨.",
+                        "footerText": "Hai Kak >\\<",
                         "buttonText": "*KLIK UNTUK MELIHAT MENU BOT LYN🍁*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
