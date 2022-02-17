@@ -204,7 +204,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
                         "description": `© *LynXzy*🌕`.trim(),
-                        "footerText": "Hai Kak >\\<",
+                        "footerText": "Hai Kak >\\\<",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
