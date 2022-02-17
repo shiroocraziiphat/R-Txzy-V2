@@ -6,7 +6,7 @@ let runnya = `
 *───「 RUNTIME BOT💌 」───*
 
 ⏲️TIME : ${time}
-✨RUNTIME : ${uptime}
+👾RUNTIME : ${uptime}
 `
 conn.sendButton(m.chat, runnya, watermark, 'Menu', '.menu', m) 
 }
