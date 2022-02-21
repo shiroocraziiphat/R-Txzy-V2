@@ -4,17 +4,34 @@ let fs = require('fs')
 let path = require('path')
 let fetch = require('node-fetch')
 let moment = require('moment-timezone')
+const chats = conn.chats.all()
+const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┌─〔 LynXzy🥀 〕
-├ Hai, *%name!✨*
-├ Memory Used : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
-└────
+┌──〔 LynXzy 〕──⬣
+│⬡ Hai, %name!
+│⬡ Tersisa *%limit Limit*
+│⬡ Role *%role*
+│⬡ Level *%level (%exp / %maxexp)*
+│⬡ [%xp4levelup]
+│⬡ %totalexp XP secara Total
+│ 
+│⬡ Hari: *%week %weton*
+│⬡ Tanggal: *%date*
+│⬡ WaktuIslam:*%dateIslamic*
+│⬡ Waktu: *%time*
+│
+│⬡ Uptime: *%uptime (%muptime)*
+│⬡ Database: %rtotalreg dari %totalreg
+│⬡ Memory Used : 
+│⬡ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+╰────────────⬣
 %readmore`.trimStart(),
-  header: '┌─〔 %category 〕',
-  body: '├ %cmd %islimit %isPremium',
-  footer: '└────\n',
+  header: '*┌──〔 %category〕*',
+  body: '*│*⦁ %cmd %islimit %isPremium',
+  footer: '*└────⦁*\n',
   after: `
+  ⬣━〔Powered By LynXzy〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -337,7 +354,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "Info Tentang Bot",
                                     "rowId": ".? info"
                                 }, { 
-                                    "title": "Tanpa Kategori",
+                                    "title": "|─| Tanpa Kategori",
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
