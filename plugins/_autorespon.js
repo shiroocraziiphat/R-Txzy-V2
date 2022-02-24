@@ -30,7 +30,7 @@ handler.all = async function (m, { isBlocked }) {
     if ((m.mtype === 'groupInviteMessage' || m.text.startsWith('https://chat') || m.text.startsWith('Buka tautan ini')) && !m.isBaileys && !m.isGroup) {
         this.send2ButtonLoc(m.chat, await (await fetch(fla + 'sewa bot')).buffer(), `╠═〘 Beli Bot 〙 ═
 ╠➥ *1 Bulan* :      *Rm 25.00*
-╠➥ *2 Minggu * : *Rm 15.00*
+╠➥ *2 Minggu * : *Rm 10.00*
 ╠➥ *Premium* :   *Rm 5.00*
 ╠➥ *Sc Bot* :        *Masih Beta*
 ║
@@ -42,7 +42,7 @@ handler.all = async function (m, { isBlocked }) {
 ║
 ╠═ ©2021 Rpg wabot-aq
 ╠═ Script original by Lan Official
-╠═〘 LYNXZY 〙 ═`.trim(), '© LynXzy', 'Gopay', '#viadana', 'Pulsa', '#viapulsa', m)
+╠═〘 LYNXZY 〙 ═`.trim(), '© LynXzy', 'Digi', '#viadigi', 'Umobile', '#viaumobile', m)
 }
 
     // salam
