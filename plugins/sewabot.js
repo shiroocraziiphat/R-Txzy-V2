@@ -13,6 +13,8 @@ Silahkan klik pada "List Harga" untuk melihat list.
 Pembayaran:
 Umobile : 60189830350
 Digi: 60149431385
+Chat owner terlebih dahulu
+Wa.me/60189830350
 `.trim()
     const button = {
         buttonText: 'List Harga',
