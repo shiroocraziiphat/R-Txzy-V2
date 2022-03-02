@@ -402,18 +402,18 @@ module.exports = {
           if (chat.welcome) {
             let groupMetadata = await this.groupMetadata(jid)
             for (let user of participants) {
-              let kai = await(await fetch('https://telegra.ph/file/300a95172011aecd5eedf.jpg')).buffer()
-              let poi = await(await fetch('https://telegra.ph/file/502adb341294a208f64a9.jpg')).buffer()
+              let kai = await(await fetch('https://telegra.ph/file/502adb341294a208f64a9.jpg')).buffer()
+              let poi = await(await fetch('https://telegra.ph/file/300a95172011aecd5eedf.jpg')).buffer()
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
-                let wel = `𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙣𝙚𝙬 𝙢𝙚𝙢𝙗𝙚𝙧🏞️`
-                let lea = `𝙎𝙚𝙡𝙖𝙢𝙖𝙩 𝙏𝙞𝙣𝙜𝙜𝙖𝙡 𝘽𝙚𝙗𝙖𝙣🌄`
+                let wel = `𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙣𝙚𝙬 𝙢𝙚𝙢𝙗𝙚𝙧🌄`
+                let lea = `𝙎𝙚𝙡𝙖𝙢𝙖𝙩 𝙏𝙞𝙣𝙜𝙜𝙖𝙡 𝘽𝙚𝙗𝙖𝙣🏞️`
                 this.reply(jid, text, 0, { thumbnail: kai, contextInfo: {
                 mentionedJid: [user],
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: '𝐋𝐘𝐍𝐍𝐗𝐙𝐘✨  ?',
+                  body: 'wa.me/60189830350?text=halo+stah',
                   thumbnail: poi
                 }
               }}) 
