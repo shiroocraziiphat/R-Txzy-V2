@@ -89,7 +89,7 @@ module.exports = {
           if (!('sPromote' in chat)) chat.sPromote = ''
           if (!('sDemote' in chat)) chat.sDemote = ''
           if (!('antiLink' in chat)) chat.antiLink = true
-          if (!('autoread' in chat)) chat.autoread = false
+          if (!('autoread' in chat)) chat.autoread = true
           if (!('broadcast' in chat)) chat.broadcast = true
           if (!('badword' in chat)) chat.badword = false
           if (!('delete' in chat)) chat.delete = true
@@ -108,7 +108,7 @@ module.exports = {
           sPromote: '',
           sDemote: '',
           antiLink: true,
-          autoread: false,
+          autoread: true,
           broadcast: true,
           delete: true,
           desc: true,
@@ -128,7 +128,7 @@ module.exports = {
           if (!'statusUpdate' in settings) settings.statusUpdate = false
           if (!isNumber(settings.status)) settings.status = 0
           if (!'antispam' in settings) settings.antispam = true
-          if (!'antitroli' in settings) settings.antitroli = true
+          if (!'antitroli' in settings) settings.antitroli = false
           if (!'group' in settings) settings.group = false
           if (!'jadibot' in settings) settings.jadibot = false
           if (!'private' in settings) settings.private = false
@@ -140,7 +140,7 @@ module.exports = {
           anon: true,
           anticall: true,
           antispam: true,
-          antitroli: true,
+          antitroli: false,
           group: false,
           jadibot: false,
           private: false,
@@ -413,7 +413,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'wa.me/60189830350?text=halo+stah',
+                  body: 'LYNXZY✨  ?',
                   thumbnail: poi
                 }
               }}) 
