@@ -2,9 +2,8 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
 let info = `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via Umobile
 ╠➥ *60189830350*
-║- Chat Owner Terlebebih
-║ Dahulu ketik .owner
-║
+║- Chat Owner Terlebih dahulu
+║- wa.me/60189830350
 ╠═ ©LanXzy & LynXzy
 ╠═ Scrip original by Lan Official
 ╠═〘 LynXzy 〙 ═
