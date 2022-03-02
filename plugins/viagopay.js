@@ -3,7 +3,8 @@ let info = `╠═〘 PEMBAYARAN 〙 ═
 ╠═ Untuk Pembayaran Via Umobile
 ╠➥ *60189830350*
 ║- Chat Owner Terlebih dahulu
-║- wa.me/60189830350
+║- wa.me/60189830350 (owner)
+║
 ╠═ ©LanXzy & LynXzy
 ╠═ Scrip original by Lan Official
 ╠═〘 LynXzy 〙 ═
