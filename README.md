@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://telegra.ph/file/4637101da58e21976363b.jpg" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
+<img src="https://telegra.ph/file/5ce2d0b5fc42a1e875401.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
-<h1 align="center">AlyaaXzy X BOTCAHX</h1>
+<h1 align="center">LynXzy & LanXzy</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
@@ -11,12 +11,12 @@
 >
 </div>
 <p align="center">
-  <a href="https://github.com/AlyaaXd"><img title="Author" src="https://img.shields.io/badge/Author-AlyaaXzy.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/LANxBOT"><img title="Author" src="https://img.shields.io/badge/Author-AlyaaXzy.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
-  <a href="https://github.com/BOTCAHX"><img title="Author" src="https://img.shields.io/badge/Author-BOTCAHX.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/NoDigi"><img title="Author" src="https://img.shields.io/badge/Author-BOTCAHX.svg?style=for-the-badge&logo=github" /></a>
   <h4 align="center">
   <a
-  <a href="https://wa.me/6289505165400">SC FREE API KOK GAN >//< </a>
+  <a href="https://wa.me/60189830350?text=halo+lord">Suhu bang >//< </a>
 </h4>
 </p>
 
@@ -67,9 +67,9 @@ Simple WhatsApp Bot
 # THANKS TO 
  [`Baileys`](https://github.com/adiwajshing/Baileys)
 
- [`AlyaXzy`](https://wa.me/6289505165400)
+ [`BOT`](https://wa.me/60149431385)
 
- [`BOTCAHX`](https://wa.me/6282221792667)
+ [`OWNER`](https://wa.me/60189830350)
 
 # Hargai Kami Dengan Menambahkan Kredit ( Wm ) 
 
