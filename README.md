@@ -177,8 +177,8 @@ conn.logger.level = 'debug'
 
 ---------
 
- [![AlyaXd](https://github.com/LANxBOT.png?size=100)](https://github.com/LANxBOT) | [![BOTCAHX](https://github.com/NoDigi.png?size=100)](https://github.com/NoDigi)
+ [![CREATOR](https://github.com/LANxBOT.png?size=100)](https://github.com/LANxBOT) | [![CREATOR](https://github.com/NoDigi.png?size=100)](https://github.com/NoDigi)
 ----|----
-[AlyaXd](https://github.com/LANxBOT) | [BOTCAHX](https://github.com/NoDigi)
+[CREATOR](https://github.com/LANxBOT) | [CREATOR](https://github.com/NoDigi)
  Creator | Creator
 
