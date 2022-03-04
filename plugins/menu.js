@@ -8,30 +8,33 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-┌──〔 LynXzy 〕──⬣
-│⬡ Hai, %name!
-│⬡ Tersisa *%limit Limit*
-│⬡ Role *%role*
-│⬡ Level *%level (%exp / %maxexp)*
-│⬡ [%xp4levelup]
-│⬡ %totalexp XP secara Total
-│ 
-│⬡ Hari: *%week %weton*
-│⬡ Tanggal: *%date*
-│⬡ WaktuIslam:*%dateIslamic*
-│⬡ Waktu: *%time*
-│
-│⬡ Uptime: *%uptime (%muptime)*
-│⬡ Database: %rtotalreg dari %totalreg
-│⬡ Memory Used : 
-│⬡ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-╰────────────⬣
+║╭──❉ 〔 LynXzy 〕❉──
+║│➸ Hai, %name!
+║│➸ Tersisa *%limit Limit*
+║│➸ Role *%role*
+║│➸ Level *%level (%exp / %maxexp)*
+║│➸ [%xp4levelup]
+║│➸ %totalexp XP secara Total
+║│ 
+║│➸ Hari: *%week %weton*
+║│➸ Tanggal: *%date*
+║│➸ WaktuIslam:
+║│➸ *%dateIslamic*
+║│➸ Waktu: *%time*
+║│
+║│➸ Uptime: *%uptime (%muptime)*
+║│➸ Database: %rtotalreg dari %totalreg
+║│➸ Memory Used : 
+║│➸ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+║╰────────────────────
+╰═════════════════════
 %readmore`.trimStart(),
-  header: '*┌──〔 %category〕*',
-  body: '*│*⦁ %cmd %islimit %isPremium',
-  footer: '*└────⦁*\n',
+  header: '║╭──❉ 〔 %category〕❉──',
+  body: '║│➸ %cmd %islimit %isPremium',
+  footer: '║╰──────────────────
+╰════════════════════\n',
   after: `
-  ⬣━〔Powered By LynXzy〕━⬣
+  ⬣━〔𝐁𝐎𝐓𝐙 𝐁𝐘 𝐋𝐘𝐍𝐗𝐙𝐘〕━⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
