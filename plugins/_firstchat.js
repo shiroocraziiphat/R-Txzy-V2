@@ -18,29 +18,29 @@ handler.all = async function (m) {
 Saya adalah Bot  LynXzy salah satu bot WhatsApp.
 
 *Harap untuk tidak menelpon, meminta save,mengirim virus atau spam dalam penggunaan bot*
-Silahkan baca rules dan mematuhi rules demi kenyamanan kita bersama.
+Silahkan baca rules dan mematuhi rules.
 Terimakasih
 
 Jika ada kendala silahkan hubungi owner.
-`.trim(), watermark, 'Menu', '.?', 'Rules', '.rules')
+`.trim(), watermark, 'Menu', '.menu', 'Sewa', '.sewa')
     user.pc = new Date * 1
 }
 
 module.exports = handler
 function ucapan() {
     const time = moment.tz('Asia/Jakarta').format('HH')
-    res = "Selamat dinihari"
+    res = "Selamat dinihari🌃"
     if (time >= 4) { 
-        res = "Selamat pagi"
+        res = "Selamat pagi🌄"
     }
     if (time > 10) {
-        res = "Selamat siang"
+        res = "Selamat siang🏞️"
     }
     if (time >= 15) {
-        res = "Selamat sore"
+        res = "Selamat sore🌅"
     }
     if (time >= 18) {
-        res = "Selamat malam"
+        res = "Selamat malam🌌"
     }
     return res
 }
