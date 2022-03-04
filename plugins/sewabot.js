@@ -2,30 +2,31 @@ let fetch = require('node-fetch')
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async(m, { conn }) => {
     let kamisato = `
-┌〔 List Berlangganan 〕
-├ 2 Bulan
-├ 1 Bulan
-├ 1 Minggu
-├ Trial 1 Hari
-└────
-Silahkan klik pada "List Harga" untuk melihat list.
-
-Pembayaran:
-Umobile : 60189830350
-Digi: 60149431385
-Chat owner terlebih dahulu
-Wa.me/60189830350
-`.trim()
+╭═══ 〔 SEWA BOT 〕 ════
+├⬡ 𝟏 ᗰIᑎᘜᘜᑌ
+├⬡ 2 ᗰIᑎᘜᘜᑌ
+├⬡ 3 ᗰIᑎᘜᘜᑌ
+├⬡ 1 ᗷᑌᒪᗩᑎ
+└═══════════════
+𝗦𝗶𝗹𝗮𝗸𝗮𝗻 𝗸𝗹𝗶𝗸 𝗽𝗮𝗱𝗮 "𝗟𝗶𝘀𝘁 𝗛𝗮𝗿𝗴𝗮" 𝘂𝗻𝘁𝘂𝗸 𝗺𝗲𝗹𝗶𝗵𝗮𝘁 𝗹𝗶𝘀𝘁.
+╭═══════════════════════
+║╭──❉ 〔 𝐕𝐈𝐀 𝐓𝐎𝐏𝐔𝐏 〕 ❉──────
+║│➸ *Digi* : 60149431385
+║│➸ *Umobile*: 60189830350
+║│➸ *Owner*: wa.me/60189830350
+║╰─────────────────────
+╰═══════════════════════`.trim()
     const button = {
         buttonText: 'List Harga',
         description: kamisato,
         sections:  [{title: "Silahkan di pilih", rows: [
-        {title: '2 Bulan', description: "Rm35.00\nSewa bot tanpa batasan waktu.", rowId:".masuk"},
-        {title: '1 Bulan', description: "Rm25.00\nSewa bot selama 1 bulan.", rowId:".masuk"},
-        {title: '1 Minggu', description: "Rm5.00\nSewa bot selama 1 minggu.", rowId:".masuk"},
-        {title: 'Trial', description: "GRATIS\nBot gratis 1 Hari.", rowId:".join"},
+        {title: '1 Minggu', description: "Rm5.00\nSewa bot 1 Minggu.", rowId:".owner"},
+        {title: '2 Minggu', description: "Rm10.00\nSewa bot 2 Minggu.", rowId:".owner"},
+        {title: '3 Minggu', description: "Rm15.00\nSewa bot 3 Minggu.", rowId:".owner"},
+        {title: '1 Bulan', description: "Rm20.00\nSewa bot 1 Bulan.", rowId:".owner"},
+        {title: 'Trial', description: "Free\nBot Free 1 Hari.", rowId:".owner"},
         {title: 'Owner', description: "Chat owner nya jika ada perlu.", rowId:".owner"},
-        {title: 'Rules', description: "Kebijakan Privasi, Syarat Ketentuan dan Peraturan.", rowId:".snk"},
+        {title: 'Rules', description: "Rules Bot LynXzy.", rowId:".snk"},
        ] }],
         listType: 1
        }
