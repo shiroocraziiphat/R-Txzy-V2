@@ -2,7 +2,8 @@
 <img src="https://telegra.ph/file/5ce2d0b5fc42a1e875401.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
-<h1 align="center">JIKA ADA KEKELIRUAN TANYA OWNER SC</h1>
+<h1 align="center">NUMPANG NAMA DOANG KOK BANGGA</h1>
+<h1 align="center">GW NGRECODE NGEFIX DIKIT WOKWOWKW</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
