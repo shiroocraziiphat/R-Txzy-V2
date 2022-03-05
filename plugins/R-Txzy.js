@@ -1,6 +1,6 @@
 let handler  = async (m, { conn, usedPrefix: _p }) => {
 ye = `@${m.sender.split`@`[0]}`
-let info = `https://github.com/LANxBOT/R-Txzy-V2/n thanks mana?`.trim()
+let info = `Hah sc? Desah Dulu Dek🤸`.trim()
 
 conn.fakeReply(m.chat, info, '0@s.whatsapp.net', `*${global.packname}*`, 'status@broadcast') 
 }
