@@ -1,4 +1,4 @@
-Up<div align="center">
+<div align="center">
 <img src="https://telegra.ph/file/5ce2d0b5fc42a1e875401.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
