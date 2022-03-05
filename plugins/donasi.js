@@ -3,8 +3,13 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => await conn.sendButtonLoc(m.chat, await (await fetch(thumbfoto)).buffer(), `
 ╭═══ 〔 𝐃𝐎𝐍𝐀𝐒𝐈 〕 ═══
-║│➸ 𝐃𝐈𝐆𝐈🌸: 60149431385
-║│➸ 𝐔𝐌𝐎𝐁𝐈𝐋𝐄🌸: 60189830350
+║│➸ 𝐃𝐈𝐆𝐈:
+║│➸ *60149431385*
+║│
+║│➸ 𝐔𝐌𝐎𝐁𝐈𝐋𝐄:
+║│➸ *60189830350*
+║│
+║│➸ OWNER :
 ║│➸ wa.me/60189830350
 ║╰──────────────────
 ╰═══════════════════
