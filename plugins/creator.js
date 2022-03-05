@@ -21,7 +21,7 @@ let name4 = 'LynXzy🥀'
   let njid4 = number4 + '@s.whatsapp.net'
   let onW4 = await this.isOnWhatsApp(njid4) || { isBusiness: false }
 
-  m.reply(`Ada Apa Kak Cari Owner?.`)
+  m.reply(`Sewa/Donasi? Chat owner.`)
   this.sendMessage(m.chat, {
     contacts: [{
       displayname: name, vcard: `
