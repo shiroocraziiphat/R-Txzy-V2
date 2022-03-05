@@ -1,8 +1,8 @@
-<div align="center">
+Up<div align="center">
 <img src="https://telegra.ph/file/5ce2d0b5fc42a1e875401.png" alt="AlyaaXzy X BOTCAHï¿½" width="300" />
 
 </p>
-<h1 align="center">LynXzy & LanXzy</h1>
+<h1 align="center">JIKA ADA KEKELIRUAN TANYA OWNER SC</h1>
 
 <h1 align="center">Jangan lupa kasih stars & follow :)</h1>
 
@@ -80,8 +80,6 @@ Simple WhatsApp Bot
 ![Ra Github stat](https://github-readme-stats.vercel.app/api?username=LANxBOT&theme=midnight-purple&show_icons=true) 
 
 ![Ra Github troppy](https://github-profile-trophy.vercel.app/?username=LANxBOT&theme=monokai)
-
-![Ra Github languages](https://github-readme-stats.vercel.app/api/top-langs/?username=LANxBOT&theme=tokyonight)
 
 
 ## Arguments `node . [--options] [<session name>]`
