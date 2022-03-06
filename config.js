@@ -4,7 +4,7 @@
 
 
 let fs = require('fs')
-global.owner = ['60189830350', '60149431385','60189830350', '60189830350', '60149432385'] // Letakan nomor kamu disini
+global.owner = ['6282361160044', '6285212023766','6282361160044', '6282361160044', '6285212023766'] // Letakan nomor kamu disini
 global.APIs = { // API Prefix
   // nama: 'https://website'
   hardianto: 'https://hardianto-chan.herokuapp.com',
@@ -41,15 +41,15 @@ global.APIKeys = { // APIKey nya disini
 }
 
 // Sticker WM
-global.packname = 'Lyn'
-global.author = 'Xzy🥀'
+global.packname = '𝑺𝒉𝒊𝒓𝒐'
+global.author = 'hehe'
 
-global.wait = '「 ⏱️ 」Sabar...'
-global.eror = '「❗」Eror banh!'
+global.wait = '「 ⏱️ 」Sedang Di Proses'
+global.eror = '「❗」Error banh!'
 global.fla = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutput=true&script=sketch-name&doScale=true&scaleWidth=800&scaleHeight=500&fontsize=100&fillTextType=1&fillTextPattern=Warning!&text='
-global.watermark = '© LynXzy🥀' //change the watermark 
-global.image = 'https://telegra.ph/file/5fa8a551000fd4461acb7.jpg' //change the image
-global.thumbfoto = 'https://telegra.ph/file/8cc8af4778d64f3c5360c.jpg'
+global.watermark = '©shirobotz' //change the watermark 
+global.image = 'https://telegra.ph/file/7f305c0647b9a92778b99.jpg' //change the image
+global.thumbfoto = 'https://telegra.ph/file/43a5bfd09e6c7e9a8055f.jpg'
 
 // image
 global.bank = 'https://telegra.ph/file/d5ddf4cc627bb0e6bc420.jpg'
