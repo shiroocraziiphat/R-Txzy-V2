@@ -6,8 +6,8 @@ BIG THANKS TO
 • My family
 • Nurutomo
 • Xteam
-• Lan Official(Owner)
-• LynXzy(Bot)
+• Hyzer.(Owner)
+• Shiro-Botz(Bot)
 • Exc(membantu)
 • Zeks
 • Penyedia Layanan API
