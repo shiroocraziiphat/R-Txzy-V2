@@ -221,19 +221,8 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `┌────〔 Shiro-Botz 〕───⬣`.trim(),
-                        "footerText": "│⬡ Aktif selama ${uptime}
-│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
-│⬡ ${Object.keys(global.db.data.users).length} Pengguna
-│⬡ ${totaljadibot.length} Jadibot
-│⬡ ${conn.blocklist.length} Terblock
-│⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
-│⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
-│
-│⬡ My Github https://github.com/Hyzerr
-│⬡ My Group https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV
-│ スパムしないでください
-╰────────────⬣
+                        "description": `©shirobotz`.trim(),
+                        "footerText": "フレンド・ゾーン",
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -516,18 +505,18 @@ function clockString(ms) {
 }
 function ucapan() {
   const time = moment.tz('Asia/Jakarta').format('HH')
-  res = "Selamat dinihari🌌"
+  res = "Selamat dinihari"
   if (time >= 4) {
-    res = "Selamat pagi🌅"
+    res = "Selamat pagi"
   }
   if (time > 10) {
-    res = "Selamat siang🏙️"
+    res = "Selamat siang"
   }
   if (time >= 15) {
-    res = "Selamat sore🌇"
+    res = "Selamat sore"
   }
   if (time >= 18) {
-    res = "Selamat malam🌃"
+    res = "Selamat malam"
   }
   return res
 }
