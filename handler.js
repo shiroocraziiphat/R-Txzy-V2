@@ -402,8 +402,8 @@ module.exports = {
           if (chat.welcome) {
             let groupMetadata = await this.groupMetadata(jid)
             for (let user of participants) {
-              let kai = await(await fetch('https://telegra.ph/file/502adb341294a208f64a9.jpg')).buffer()
-              let poi = await(await fetch('https://telegra.ph/file/300a95172011aecd5eedf.jpg')).buffer()
+              let kai = await(await fetch('https://telegra.ph/file/f29de3d1e17fa01210177.jpg')).buffer()
+              let poi = await(await fetch('https://telegra.ph/file/d49b0a6d11af0d1510218.jpg')).buffer()
               text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || 'ようこそ Youkuso, @user!').replace('@subject', this.getName(jid)).replace('@desc', groupMetadata.desc) :
                   (chat.sBye || this.bye || conn.bye || '左様なら Sayounara, @user!')).replace(/@user/g, '@' + user.split`@`[0])
                 let wel = `𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙣𝙚𝙬 𝙢𝙚𝙢𝙗𝙚𝙧🌄`
@@ -413,7 +413,7 @@ module.exports = {
                 externalAdReply: {
                   mediaUrl: 'https://youtu.be/-tKVN2mAKRI',
                   title: action === 'add' ? wel : lea,
-                  body: 'LYNXZY✨  ?',
+                  body: 'Shiro-Botz🗿',
                   thumbnail: poi
                 }
               }}) 
