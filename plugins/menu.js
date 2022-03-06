@@ -8,32 +8,31 @@ const chats = conn.chats.all()
 const groups = chats.filter(v => v.jid.endsWith('g.us'))
 const defaultMenu = {
   before: `
-║╭──❉ 〔 LynXzy 〕❉──
-║│➸ Hai, %name!
-║│➸ Tersisa *%limit Limit*
-║│➸ Role *%role*
-║│➸ Level *%level (%exp / %maxexp)*
-║│➸ [%xp4levelup]
-║│➸ %totalexp XP secara Total
-║│ 
-║│➸ Hari: *%week %weton*
-║│➸ Tanggal: *%date*
-║│➸ WaktuIslam:
-║│➸ *%dateIslamic*
-║│➸ Waktu: *%time*
-║│
-║│➸ Uptime: *%uptime (%muptime)*
-║│➸ Database: %rtotalreg dari %totalreg
-║│➸ Memory Used : 
-║│➸ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
-║╰────────────────────
-╰═════════════════════
+┏━━━ꕥ〔 *ShiroBotz* 〕ꕥ━⬣
+┃✾ Hai, %name!
+┃✾ Tersisa *%limit Limit*
+┃✾ Role *%role*
+┃✾ Level *%level (%exp / %maxexp)*
+┃✾ [%xp4levelup]
+┃✾ %totalexp XP secara Total
+┃ 
+┃✾ Hari: *%week %weton*
+┃✾ Tanggal: *%date*
+┃✾ WaktuIslam:
+┃✾ *%dateIslamic*
+┃✾ Waktu: *%time*
+┃
+┃✾ Uptime: *%uptime (%muptime)*
+┃✾ Database: %rtotalreg dari %totalreg
+┃✾ Memory Used : 
+┃✾ ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
+┗━━━━━━ꕥ
 %readmore`.trimStart(),
-  header: '║╭──❉ 〔 %category〕❉──',
-  body: '║│➸ %cmd %islimit %isPremium',
-  footer: '╰──────\n',
+  header: '┏━━ꕥ〔 *%category* 〕ꕥ━⬣',
+  body: '┃✾%cmd %islimit %isPremium',
+  footer: '┗━ꕥ\n',
   after: `
-  ⬣━〔𝐁𝐎𝐓𝐙 𝐁𝐘 𝐋𝐘𝐍𝐗𝐙𝐘〕━⬣
+  ⬣───〔 BOTZ BY HYZER. 〕───⬣
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
@@ -222,8 +221,19 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
 			return conn.relayWAMessage(conn.prepareMessageFromContent(m.chat, {
                     "listMessage":  {
                         "title": `*${ucapan()}, ${name}*`.trim(),
-                        "description": `© *LynXzy*🌕`.trim(),
-                        "footerText": "Hai Kak >\\\<",
+                        "description": `┌────〔 Shiro-Botz 〕───⬣`.trim(),
+                        "footerText": "│⬡ Aktif selama ${uptime}
+│⬡ Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
+│⬡ ${Object.keys(global.db.data.users).length} Pengguna
+│⬡ ${totaljadibot.length} Jadibot
+│⬡ ${conn.blocklist.length} Terblock
+│⬡ ${Object.entries(global.db.data.chats).filter(chat => chat[1].isBanned).length} Chat Terbanned
+│⬡ ${Object.entries(global.db.data.users).filter(user => user[1].banned).length} Pengguna Terbanned
+│
+│⬡ My Github https://github.com/Hyzerr
+│⬡ My Group https://chat.whatsapp.com/Jzd9DEVB5nODtNBk1VCNrV
+│ スパムしないでください
+╰────────────⬣
                         "buttonText": "*Klik Disini*",
                         "listType": "SINGLE_SELECT",
                         "sections": [
@@ -277,7 +287,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "rowId": ".? xp"
                                 }, { 
                                     "title": "|🔞| NSFW",
-                                    "description": "Astarfirullah,Tobat Banh",
+                                    "description": "Tante Tante, Anaknya Nonton Bokep Tante",
                                     "rowId": ".? nsfw"
                                 }, { 
                                     "title": "|🖼️| Random Image",
@@ -360,7 +370,7 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                                     "description": "",
                                     "rowId": ".? tanpakategori"
                                 }, { 
-                                    "title": "|👩‍⚖️| Owner",
+                                    "title": "|🧒| Owner",
                                     "description": "Menu Khusu Owner",
                                     "rowId": ".? owner"
                                 }],
@@ -368,14 +378,14 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
                             }, {
                                 "rows": [{
                                     "title": "|👩‍💻| Owner bot",
-                                    "description": "pemilik LynXzy",
+                                    "description": "pemilik Shiro-Botz",
                                     "rowId": ".owner"
                                 }, {
                                     "title": "|💳| Donasi",
                                     "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                                     "rowId": ".donasi"
                                 }, {
-                                    "title": "|🥀| Kata penutup",
+                                    "title": "|>,<| Kata penutup",
                                     "description": "Terimakasih untuk user yang telah menggunakan bot, jika ada kesalahan atau permintaan bisa chat ke nomor owner\nNote: chat P/main² tidak akan di respon(user bisa terkena banned/block)",
                                     "rowId": ".creator"
                                 }, {
